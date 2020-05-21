@@ -1,5 +1,5 @@
 'use strict'
-var isPerfect = function (number) {
+const isPerfect = function (number) {
     var sumOfFactors = 0;
     for (let index = 1; index <= number; index++) {
         if (number % index == 0) {
